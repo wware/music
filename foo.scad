@@ -4,7 +4,7 @@ module rod(v1, v2) {
     y = [v2[0] - v1[0], v2[1] - v1[1], v2[2] - v1[2]];
     translate(v1)
         rotate(-acos(y[2] / norm(y)), cross(y, [0, 0, 1]))
-            cylinder(h=norm(y), d=0.1);
+            cylinder(h=norm(y), d=0.025);
 }
 
 R = 5;
