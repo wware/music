@@ -1,0 +1,9 @@
+[submodule "older/fpga-synth"]
+	path = older/fpga-synth
+	url = git@github.com:wware/fpga-synth.git
+[submodule "older/instrument2015"]
+	path = older/instrument2015
+	url = git@github.com:wware/instrument2015.git
+[submodule "older/megachordotron"]
+	path = older/megachordotron
+	url = git@github.com:wware/megachordotron.git
